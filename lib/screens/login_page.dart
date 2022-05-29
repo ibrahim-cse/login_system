@@ -32,10 +32,6 @@ class _LoginPageState extends State<LoginPage> {
     }
   }
 
-  // bool fbLoggedIn = false;
-  // AccessToken? _accessToken;
-  // UserModel? _currentUser;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -73,21 +69,6 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
                 const SizedBox(height: 15),
-                ElevatedButton.icon(
-                  style: ElevatedButton.styleFrom(
-                      primary: Colors.white,
-                      onPrimary: Colors.black,
-                      minimumSize: const Size(double.infinity, 50)),
-                  onPressed: () {},
-                  label: const Text(
-                    'Login with Facebook',
-                    style: TextStyle(fontSize: 15),
-                  ),
-                  icon: const Icon(
-                    FontAwesomeIcons.facebook,
-                    color: Colors.blue,
-                  ),
-                ),
               ],
             ),
           ),
